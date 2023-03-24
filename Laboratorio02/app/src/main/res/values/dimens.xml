@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="large_text">40sp</dimen>
+    <dimen name="normal_gap">24dp</dimen>
+    <dimen name="medium_gap">16dp</dimen>
+    <dimen name="medium_radius">16dp</dimen>
+</resources>
