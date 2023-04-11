@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">04-Activity-Lifecycle-and-Intents</string>
+    <string name="label_text">Rellena la siguiente información</string>
+    <string name="save_text">Guardar</string>
+    <string name="name_hint_text">Nombre</string>
+    <string name="phone_hint_text">Número de teléfono</string>
+    <string name="email_hint_text">Correo electronico</string>
+    <string name="share_text">Name: %1$s \nEmail %2$s \nCellphone: %3$s</string>
+    <string name="share_hint_text">Compartir</string>
+</resources>
