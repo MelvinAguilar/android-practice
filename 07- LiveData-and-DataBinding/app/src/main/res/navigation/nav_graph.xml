@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/movieContainerFragment">
+
+    <fragment
+        android:id="@+id/movieContainerFragment"
+        android:name="com.melvin.a04_navigation_component.ui.movie.MovieContainerFragment"
+        android:label="fragment_movie_container"
+        tools:layout="@layout/fragment_movie_container" >
+        <action
+            android:id="@+id/action_movieContainerFragment_to_formAddMovieFragment"
+            app:destination="@id/formAddMovieFragment"
+            app:popUpTo="@id/movieContainerFragment" />
+        <action
+            android:id="@+id/action_movieContainerFragment_to_movieDetailFragment"
+            app:destination="@id/movieDetailFragment"
+            app:popUpTo="@id/movieContainerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/formAddMovieFragment"
+        android:name="com.melvin.a04_navigation_component.ui.movie.FormAddMovieFragment"
+        android:label="fragment_form_add_movie"
+        tools:layout="@layout/fragment_form_add_movie" >
+        <action
+            android:id="@+id/action_formAddMovieFragment_to_movieContainerFragment"
+            app:destination="@id/movieContainerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/movieDetailFragment"
+        android:name="com.melvin.a04_navigation_component.ui.movie.MovieDetailFragment"
+        android:label="fragment_movie_detail"
+        tools:layout="@layout/fragment_movie_detail" >
+        <action
+            android:id="@+id/action_movieDetailFragment_to_movieContainerFragment"
+            app:destination="@id/movieContainerFragment" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="category"
+            app:argType="string" />
+        <argument
+            android:name="description"
+            app:argType="string" />
+        <argument
+            android:name="qualification"
+            app:argType="string" />
+    </fragment>
+</navigation>
