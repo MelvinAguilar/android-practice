@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">08-RecyclerView</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_new_movie_text">Add new movie</string>
+    <string name="calification_movie_text">9.8</string>
+    <string name="name_movie_text">Star Wars episode 3: La venganza de los Sith</string>
+    <string name="calification_hint">Qualification</string>
+    <string name="submit_hint">Submit</string>
+    <string name="description_hint">Description</string>
+    <string name="name_hint">Name</string>
+    <string name="category_hint">Category</string>
+</resources>
